@@ -1,0 +1,715 @@
+@media (max-width: 1473px) {
+
+  /* Блог */
+
+  .inner__blog-slide {
+    width: calc(14.83vw + 242.13px);
+    padding: calc(20.25vw - 57.28px) calc(22.65vw - 57.3px) 0 0;
+  }
+
+  /* Карта */
+
+  .decor-pin {
+    top: calc(8.52vw - 26.48px);
+    left: calc(48.74vw - 9.98px);
+    width: calc(2.6vw + 21.67px);
+    height: calc(2.6vw + 21.67px);
+  }
+}
+
+/* tablet width 641px - 1200px */
+
+@media (max-width: 1200px) {
+
+  .body-section {
+    padding: 125px 0;
+  }
+
+  .header {
+    padding-top: calc(3.05vw - 1.54px);
+    padding-bottom: calc(8vw - 4.06px);
+  }
+
+  .header:after {
+    bottom: calc(42.82vw + 75.17px);
+  }
+
+  .header__logo {
+    left: 10px;
+  }
+
+  .section-title {
+    margin-bottom: 62.5px;
+    font-size: calc(4.63vw - 7.56px);
+  }
+
+  .section-title::after {
+    font-size: 62px;
+  }
+
+  /* О школе, о... */
+
+  .school-info__title {
+    padding-right: 0;
+    text-align: center;
+  }
+
+  .school-info__content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    max-width: 750px;
+    padding: 0 10px;
+  }
+
+  .school-info__text {
+    width: 100%;
+    max-width: 750px;
+  }
+
+  .school-info__text:nth-last-child(2) {
+    margin-bottom: 30px;
+  }
+
+  /* В школе... */
+
+  .school-gives__content {
+    max-width: 750px;
+  }
+
+  .wrap-advantages {
+    margin-bottom: 64px;
+  }
+
+  .content-header {
+    margin-left: 0;
+  }
+
+  .wrap-advantages-more {
+    width: 375px;
+  }
+
+  /* Покоряй вершины */
+
+  .conquer-peak {
+    padding: 125px 0 0;
+  }
+
+  .conquer-peak__content {
+    max-width: 750px;
+  }
+
+  .conquer-peak__title {
+    margin-right: 50%;
+  }
+
+  .conquer-peak__text {
+    margin-right: 50%;
+  }
+
+  /* Галерея */
+
+  .gallery {
+    max-width: 750px;
+    margin: 125px auto;
+    padding: 0 10px;
+  }
+
+  .gallery__list-items {
+    margin-top: 132.5px;
+  }
+
+  .btn {
+    margin: 31px auto;
+  }
+
+  .wrap-gallery {
+    margin: 31px auto;
+    grid-gap: 25px;
+    grid-template-columns: repeat(auto-fill, minmax(233px, 1fr));
+    grid-auto-rows: 242px;
+  }
+
+  /* Цитата */
+
+  .section-quote {
+    padding: 4.22% 0 3.23%;
+  }
+
+  .quote__content {
+    width: 750px;
+  }
+
+  /* Видео */
+
+  .media {
+    margin: 125px auto;
+    padding: 0;
+  }
+
+  /* Статистика */
+
+  .statistics {
+    padding: 0;
+  }
+
+  /* Блог */
+
+  .blog {
+    padding-bottom: 0;
+  }
+
+  .blog__content {
+    margin-top: 143px;
+  }
+
+  .wrap_slider-track {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    -ms-scroll-snap-type: x mandatory;
+    scroll-snap-type: x mandatory;
+  }
+
+  .wrap__blog-slide {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    scroll-snap-align: start;
+  }
+
+  .blog__content>.navigation-btn {
+    display: none;
+  }
+
+  .blog__img {
+    width: 100vw;
+  }
+
+  .blog__title {
+    font-size: calc(4.63vw - 7.56px);
+  }
+
+  /* Статистика */
+
+  .statistics {
+    max-width: 750px;
+  }
+
+  /* Наша команда */
+
+  .team__inner {
+    margin-top: 70px;
+  }
+
+  /* Пакеты услуг */
+
+  .services__content {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .services__wrap {
+    margin: 7px;
+  }
+
+  .services__title {
+    margin-bottom: 30px;
+  }
+
+  .services__text {
+    margin: 6.25px 0;
+  }
+
+  /* Карта */
+
+  .map {
+    padding: 125px 0 0;
+  }
+
+  /* Оставить заявку */
+
+  .form__wrap {
+    max-width: 750px;
+  }
+
+  .form__text {
+    padding-right: 0;
+  }
+
+  .section-form__text {
+    padding-right: 0;
+  }
+
+  /* Форма обр. связи */
+
+  .section-form__list-items {
+    width: 750px;
+    margin-top: 125px;
+  }
+
+  .form__btn {
+    margin: 73px 0 0;
+  }
+
+  /* Подвал */
+
+  .footer {
+    padding: 41px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+
+  /* Наша команда */
+
+  .team {
+    max-width: 750px;
+  }
+
+  .team__img {
+    max-width: 206.25px;
+  }
+
+  /* Пакеты услуг */
+
+  .services__content {
+    max-width: 750px;
+  }
+
+  .services__wrap {
+    min-height: 488px;
+    padding: 28px 19px;
+  }
+
+  .services__title {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 940px) {
+
+  .header {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+  }
+
+  .menu {
+    margin-right: 10px;
+  }
+
+  .header__list-items>.menu__list__item:nth-child(n + 2) {
+    margin-left: 28px;
+  }
+
+  /* Блог */
+
+  .inner-dots {
+    bottom: calc(8.14vw + 0.49px);
+  }
+}
+
+/* mobile  width 768px */
+
+@media (max-width: 768px) {
+
+  .btn-menu,
+  .btn-menu::before,
+  .btn-menu::after {
+    position: absolute;
+    top: calc(2.94vw + 30.93px);
+    right: 10px;
+    display: block;
+    width: 33px;
+    height: 4px;
+    background-color: #ffffff;
+    border: none;
+  }
+
+  .btn-menu::before {
+    top: -11px;
+    right: 0px;
+    content: "";
+  }
+
+  .btn-menu::after {
+    top: 11px;
+    right: 0px;
+    content: "";
+  }
+
+  .header__list-items {
+    display: none;
+  }
+
+  .menu__list-active {
+    position: absolute;
+    right: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    background: -o-linear-gradient(245deg,
+        #01353e 10%,
+        rgba(51, 51, 51, 0.595076) 51.64%,
+        rgba(51, 51, 51, 0.222586) 91.35%,
+        rgba(51, 51, 51, 0) 99.87%);
+    background: linear-gradient(205deg,
+        #01353e 10%,
+        rgba(51, 51, 51, 0.595076) 51.64%,
+        rgba(51, 51, 51, 0.222586) 91.35%,
+        rgba(51, 51, 51, 0) 99.87%);
+    padding: 15px;
+    border-radius: 5px;
+    border-top-left-radius: 90px;
+    border-bottom-right-radius: 30px;
+  }
+
+  .header__list-items>.menu__list__item:nth-child(n + 2) {
+    margin: 15px 0 0 0;
+  }
+
+  .lead-title {
+    font-size: calc(29.02vw - 22.86px);
+  }
+
+  .body-section {
+    padding: 78px 0;
+  }
+
+  .section-title {
+    width: 80%;
+    margin: 0 auto 39px;
+    font-size: 28px;
+  }
+
+  .section-title::after {
+    font-size: calc(4.46vw + 27.71px);
+  }
+
+  /* О школе, о... */
+
+  .school-info__content {
+    max-width: 468px;
+  }
+
+  /* В школе... */
+
+  .school-gives__content {
+    width: 100%;
+    max-width: 468px;
+  }
+
+  .wrap-advantages {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .wrap-waves {
+    margin-bottom: 40px;
+  }
+
+  .wrap-advantages-more {
+    width: 100%;
+  }
+
+  /* Покоряй вершины */
+
+  .conquer-peak {
+    padding: 78px 0 0;
+    background-image: none;
+  }
+
+  .conquer-peak__content {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    max-width: 468px;
+  }
+
+  .conquer-peak__text {
+    margin-right: 0;
+  }
+
+  /* Галерея */
+
+  .gallery {
+    max-width: 468px;
+    margin: 78px auto;
+    padding: 0 10px;
+  }
+
+  .gallery__list-items {
+    margin-top: 83px;
+  }
+
+  .btn {
+    margin: 19.5px auto;
+  }
+
+  /* Копия галереи */
+
+  .wrap-gallery {
+    margin: 19.5px 0;
+    grid-gap: 32px;
+    grid-template-columns: repeat(auto-fill, minmax(218px, 1fr));
+    grid-auto-rows: 226px;
+  }
+
+  /* Цитата */
+
+  .section-quote {
+    padding: 4.22% 0 3.23%;
+  }
+
+  /* Видео */
+
+  .media {
+    margin: 78px auto;
+    padding: 0;
+  }
+
+  /* Статистика */
+
+  .statistics {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    max-width: 100vw;
+    padding: 0;
+  }
+
+  .statistics__inner {
+    width: 50%;
+    margin: 0;
+  }
+
+  .statistics__inner:nth-last-child(-n + 2) {
+    margin-top: 7px;
+  }
+
+  /* Блог */
+
+  .blog__content {
+    margin-top: 89.5px;
+  }
+
+  .blog__title {
+    font-size: calc(2.23vw + 10.86px);
+  }
+
+  .blog__text {
+    font-size: calc(1.12vw + 5.43px)
+  }
+
+  .slide-dot {
+    width: calc(1.12vw + 6.43px);
+    height: calc(1.12vw + 6.43px);
+  }
+
+  .slide-dot:nth-child(n + 2) {
+    margin-left: calc(1.12vw + 6.43px);
+  }
+
+  /* Наша команда */
+
+  .team__inner {
+    margin: 44px auto 0;
+    padding: 0 10px;
+  }
+
+  .team__img {
+    max-width: 55vh;
+  }
+
+  /* Пакеты услуг */
+
+  .services__wrap {
+    width: calc(50vw - 30px);
+    min-width: 286px;
+    min-height: 488px;
+  }
+
+  /* Карта */
+
+  .map {
+    padding: 78px 0 0;
+  }
+
+  /* Форма обр. связи */
+
+  .form__wrap {
+    max-width: 468px;
+  }
+
+  .form__inner {
+    width: 100%;
+    margin-bottom: 46px;
+    padding: 0 10px;
+  }
+
+  .form__btn {
+    margin: 46px auto 0;
+  }
+
+  .contacts__inner {
+    width: 100%;
+  }
+
+  .section-form__text {
+    margin-bottom: 49px;
+  }
+
+  .section-form__list-items {
+    width: 468px;
+    margin-top: 78px;
+  }
+
+  .footer {
+    padding: 26px;
+  }
+}
+
+@media (max-width: 475px) {
+
+  .body-section {
+    padding: 49px 0;
+  }
+
+  .section-title {
+    margin-bottom: 24px;
+  }
+
+  .btn {
+    margin: 15.5px auto;
+  }
+
+  .wrap-waves {
+    --wave-width: calc(-28.39vw + 134.84px);
+  }
+
+  .decor-wave-s {
+    width: calc(200px - var(--wave-width));
+  }
+
+  .decor-wave-m {
+    width: calc(247px - var(--wave-width));
+  }
+
+  .decor-wave-b {
+    width: calc(293px - var(--wave-width));
+  }
+
+  /* Покоряй вершины */
+
+  .conquer-peak {
+    padding: 49px 0 0;
+  }
+
+  /* Галерея */
+
+  .gallery {
+    margin: 49px auto;
+    padding: 0 10px;
+  }
+
+  .gallery__list-items {
+    margin-top: 52px;
+  }
+
+  .gallery__menu-link,
+  .section-form__socials {
+    font-size: calc(6.45vw - 6.65px);
+  }
+
+  /* Копия галереи */
+
+  .wrap-gallery {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-auto-rows: 177px;
+    grid-gap: 5px;
+  }
+
+  .inner-gallery {
+    -ms-grid-column-span: 2;
+    grid-column: span 2;
+  }
+
+  /* Цитата */
+
+  .section-quote {
+    padding: 4.22% 0 3.23%;
+  }
+
+  .quote {
+    font-size: calc(6.45vw + 5.35px);
+  }
+
+  /* Видео */
+
+  .media {
+    margin: 49px auto;
+    padding: 0;
+  }
+
+  /* Статистика */
+
+  .statistics {
+    padding: 0;
+  }
+
+  /* Блог */
+
+  .blog__content {
+    margin-top: 56px;
+  }
+
+  /* Наша команда */
+
+  .team__inner {
+    margin-top: 27px;
+  }
+
+  /* Карта */
+
+  .map {
+    padding: 49px 0 0;
+  }
+
+  /* Форма обр. связи */
+
+  .form__inner {
+    margin-bottom: 0;
+  }
+
+  .contacts__inner {
+    padding: 30px 32px 0;
+  }
+
+  .section-form__text {
+    margin-bottom: 30px;
+  }
+
+  .section-form__list-items {
+    margin-top: 49px;
+  }
+
+  /* Подвал */
+
+  .footer {
+    padding: 16px;
+  }
+}
